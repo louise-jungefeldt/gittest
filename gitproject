@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+
+x=[1, 2, 3, 4]
+y=[-2, 4, 6, 2]
+
+plt.plot(x,y, label='Bil1')
+plt.xlabel('Tid')
+plt.ylabel('Position')
+plt.title('Titel\nCheck it out')#\n = newline
+plt.legend()
+plt.show()
+
